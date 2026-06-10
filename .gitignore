@@ -1,0 +1,28 @@
+# Keil MDK generated
+Objects/
+Listings/
+DebugConfig/
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.bak
+*.dep
+
+# Build output
+*.o
+*.d
+*.crf
+*.hex
+*.bin
+*.axf
+*.htm
+*.lnp
+*.sct
+*.iex
+
+# Compiled Python
+*.pyc
+
+# IDE/OS
+.DS_Store
+Thumbs.db

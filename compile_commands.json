@@ -1,0 +1,996 @@
+[
+    {
+        "command": "arm-none-eabi-gcc -c Start/startup_stm32f10x_md.s -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Start/startup_stm32f10x_md.s"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Start/core_cm3.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Start/core_cm3.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Start/core_cm3.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Start/core_cm3.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Start/stm32f10x.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Start/stm32f10x.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Start/system_stm32f10x.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Start/system_stm32f10x.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Start/system_stm32f10x.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Start/system_stm32f10x.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/misc.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/misc.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/misc.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/misc.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_adc.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_adc.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_adc.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_adc.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_bkp.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_bkp.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_bkp.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_bkp.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_can.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_can.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_can.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_can.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_cec.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_cec.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_cec.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_cec.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_crc.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_crc.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_crc.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_crc.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_dac.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_dac.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_dac.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_dac.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_dbgmcu.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_dbgmcu.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_dbgmcu.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_dbgmcu.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_dma.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_dma.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_dma.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_dma.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_exti.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_exti.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_exti.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_exti.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_flash.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_flash.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_flash.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_flash.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_fsmc.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_fsmc.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_fsmc.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_fsmc.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_gpio.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_gpio.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_gpio.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_gpio.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_i2c.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_i2c.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_i2c.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_i2c.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_iwdg.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_iwdg.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_iwdg.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_iwdg.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_pwr.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_pwr.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_pwr.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_pwr.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_rcc.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_rcc.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_rcc.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_rcc.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_rtc.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_rtc.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_rtc.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_rtc.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_sdio.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_sdio.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_sdio.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_sdio.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_spi.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_spi.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_spi.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_spi.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_tim.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_tim.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_tim.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_tim.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_usart.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_usart.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_usart.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_usart.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_wwdg.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_wwdg.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/stm32f10x_wwdg.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/stm32f10x_wwdg.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c System/Delay.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "System/Delay.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c System/Delay.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "System/Delay.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c System/Timer.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "System/Timer.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c System/Timer.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "System/Timer.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/LED.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/LED.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/LED.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/LED.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/Key.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/Key.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/OLED_Font.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/OLED_Font.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/Key.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/Key.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/OLED.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/OLED.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/OLED.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/OLED.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/HCSR04.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/HCSR04.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Hardware/HCSR04.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Hardware/HCSR04.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/ds18b20.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/ds18b20.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c Library/ds18b20.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "Library/ds18b20.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c User/stm32f10x_conf.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "User/stm32f10x_conf.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c User/stm32f10x_it.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "User/stm32f10x_it.c"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c User/stm32f10x_it.h -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "User/stm32f10x_it.h"
+    },
+    {
+        "command": "arm-none-eabi-gcc -c User/main.c -D__GNUC__ -IStart -ILibrary -IUser -ISystem -IHardware -DUSE_STDPERIPH_DRIVER",
+        "arguments": [
+            "-D__GNUC__",
+            "-IStart",
+            "-ILibrary",
+            "-IUser",
+            "-ISystem",
+            "-IHardware",
+            "-DUSE_STDPERIPH_DRIVER"
+        ],
+        "directory": "C:/Users/夜之羽/Downloads/HC-SR04",
+        "file": "User/main.c"
+    }
+]
