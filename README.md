@@ -11,7 +11,7 @@
 | 激光测距 | VL53L0X | I2C |
 | OLED 显示屏 | 0.96" SSD1306 | I2C |
 | LED 灯 | 高亮 LED (PA1) | TIM2_CH2 PWM |
-| 无源蜂鸣器 | 有源替代 (PA6) | TIM3_CH1 PWM |
+| 无源蜂鸣器 | 低电平触发 (PA6) | TIM3_CH1 PWM |
 | 板载指示灯 | PC13 | GPIO |
 
 ## 引脚分配
